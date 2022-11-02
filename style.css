@@ -1,0 +1,139 @@
+
+body{
+  background-color: #DFD9E8;
+  font-family: 'Lora', serif;
+  color:#575F7D;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.container {
+  width: 700px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+}
+
+.card-white {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.text-margin > p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 10px;
+}
+
+#purple-botton{
+  text-decoration: none;
+  background-color: rgb(123, 110, 202);
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+  transition:0.3s;
+}
+
+#purple-botton:hover{
+  color: white;
+  background-color: rgb(43,45,49);
+}
+
+h1{
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+h2{
+  font-family: 'Roboto Mono', monospace;
+  color:rgb(99,142,171);
+  font-size: 17px;
+}
+
+.header3-color > h3{
+  font-family: 'Caveat', cursive;
+  background-color:rgba(95,113,69,0.5);
+  color:rgba(255, 255, 255, 0.9);
+}
+
+h4{
+  font-family: 'Caveat', cursive;
+  color: rgb(179,72,50);
+  font-size: 20px;
+}
+
+.img_circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin-left: 10px;
+}
+
+.friend_desc{
+  font-size: 10px;
+  align-self: flex-end;
+  text-align: end;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.sofia-list{
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  align-items: center;
+  gap: 10px 10px;
+  background-color: rgba(211, 211, 211, 0.16);
+  margin-top: 10px;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 16px;
+  font-weight: 600px;
+  transition:0.3s;
+}
+
+i{
+  font-size: 50px;
+  color: #564978;
+}
+
+i:hover {
+  color: rgb(43,45,49);
+}
